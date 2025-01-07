@@ -35,7 +35,7 @@ def handle_message(update: Update, context: CallbackContext) -> None:
         update.message.reply_text("❌ Please send a valid URL.")
 
 def main():
-    bot_token = "YOUR_TELEGRAM_BOT_TOKEN"
+    bot_token = "7118301882:AAFuroSozOSAkgNYSaVCWUqEvawkQFlE4to"
     updater = Updater(token=bot_token, use_context=True)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler("start", start))
